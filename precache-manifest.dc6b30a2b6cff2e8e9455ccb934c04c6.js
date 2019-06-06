@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "438c17330e4743ee8ea3171a6e4c0c84",
+    "revision": "22d9e10933a003be983aa69d3536d2fe",
     "url": "/mios-task/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mios-task/static/css/2.764ccc25.chunk.css"
   },
   {
-    "revision": "f502de71ec85ce04473f",
+    "revision": "39e31951f115bd90c768",
     "url": "/mios-task/static/css/main.855420ee.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mios-task/static/js/2.5b7be3e3.chunk.js"
   },
   {
-    "revision": "f502de71ec85ce04473f",
-    "url": "/mios-task/static/js/main.328f759e.chunk.js"
+    "revision": "39e31951f115bd90c768",
+    "url": "/mios-task/static/js/main.0a866331.chunk.js"
   },
   {
     "revision": "eae0defc0675690433fe",

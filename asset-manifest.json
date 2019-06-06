@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/mios-task/static/css/main.855420ee.chunk.css",
-    "main.js": "/mios-task/static/js/main.328f759e.chunk.js",
-    "main.js.map": "/mios-task/static/js/main.328f759e.chunk.js.map",
+    "main.js": "/mios-task/static/js/main.0a866331.chunk.js",
+    "main.js.map": "/mios-task/static/js/main.0a866331.chunk.js.map",
     "runtime~main.js": "/mios-task/static/js/runtime~main.73132ee7.js",
     "runtime~main.js.map": "/mios-task/static/js/runtime~main.73132ee7.js.map",
     "static/css/2.764ccc25.chunk.css": "/mios-task/static/css/2.764ccc25.chunk.css",
     "static/js/2.5b7be3e3.chunk.js": "/mios-task/static/js/2.5b7be3e3.chunk.js",
     "static/js/2.5b7be3e3.chunk.js.map": "/mios-task/static/js/2.5b7be3e3.chunk.js.map",
     "index.html": "/mios-task/index.html",
-    "precache-manifest.903f535ae4193f6ab28d86a592ff7f7f.js": "/mios-task/precache-manifest.903f535ae4193f6ab28d86a592ff7f7f.js",
+    "precache-manifest.dc6b30a2b6cff2e8e9455ccb934c04c6.js": "/mios-task/precache-manifest.dc6b30a2b6cff2e8e9455ccb934c04c6.js",
     "service-worker.js": "/mios-task/service-worker.js",
     "static/css/2.764ccc25.chunk.css.map": "/mios-task/static/css/2.764ccc25.chunk.css.map",
     "static/css/main.855420ee.chunk.css.map": "/mios-task/static/css/main.855420ee.chunk.css.map",
