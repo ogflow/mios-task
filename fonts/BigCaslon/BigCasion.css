@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Big Casion";
+  font-style: normal;
+  font-weight: bold;
+  src:
+      url("Big-Casion-Bold.woff2") format("woff2"),
+      url("Big-Casion-Bold.woff") format("woff"),
+      url("Big-Casion-Bold.otf") format("opentype"),
+      url("Big-Casion-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Big Casion";
+  font-style: normal;
+  font-weight: normal;
+  src:
+      url("Big-Casion-Regular.woff2") format("woff2"),
+      url("Big-Casion-Regular.woff") format("woff"),
+      url("Big-Casion-Regular.otf") format("opentype"),
+      url("Big-Casion-Regular.ttf") format("truetype");
+}
