@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="20px" viewBox="0 0 21 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Components / icons / user</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Components-/-icons-/-user" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3" transform="translate(0.000000, 1.000000)" stroke="#000000" stroke-width="1.3">
+            <path d="M0.957314182,18.1818182 C1.16724312,18.4570525 19.9893784,18.4204788 20.1954131,18.1818182 C20.4014477,17.9431576 20.3614001,10.4605557 10.5763636,10.5463984 C0.791327215,10.6322411 0.747385247,17.9065838 0.957314182,18.1818182 Z" id="Path-10"></path>
+            <ellipse id="Oval" cx="10.3257955" cy="4.34318182" rx="4.56034091" ry="4.34318182"></ellipse>
+        </g>
+    </g>
+</svg>

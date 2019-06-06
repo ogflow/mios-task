@@ -1,0 +1,114 @@
+@import '../../styles/variables.scss';
+
+.footer-wrap {
+  width: 100%;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  @media (max-width: $breakpoint-phone) {
+    padding: 20px 0;
+    font-size: 1.5rem;
+  }
+
+  & .footer {
+    width: 730px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    @media (max-width: $breakpoint-phone) {
+      width: auto;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    & .footer-menu {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      & .footer-social {
+        width: 140px;
+        display: flex;
+        justify-content: space-between;
+        @media (max-width: $breakpoint-phone) {
+          width: 100vw;
+          justify-content: space-evenly;
+          border-bottom: 1px solid $gray-light;
+
+          & > a {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            padding: 20px 0
+          }
+        }
+      }
+
+      & .footer-lang-wrap {
+        display: flex;
+        align-items: center;
+
+        & .footer-language-img {
+          margin-right: 7px;
+        }
+      }
+    }
+
+    & .footer-links-title-arrow {
+      display: none;
+    }
+    @media (max-width: $breakpoint-phone) {
+      & .footer-links-wrap {
+        width: 100%;
+        border-bottom: 1px solid $gray-light;
+
+        & .footer-links-title {
+          margin: 0;
+          padding: 20px 16px 16px 16px;
+          display: flex;
+          justify-content: space-between;
+          cursor: pointer;
+
+          & .footer-links-title-arrow {
+            display: block;
+          }
+        }
+
+        & .footer-links-stack {
+          text-align: left;
+          display: none;
+        }
+        & .footer-link {
+          padding: 8px 16px;
+        }
+        & .footer-lang-wrap {
+          padding-bottom: 8px;
+        }
+      }
+    }
+    
+    & .footer-links-stack {
+      padding: 0;
+      list-style: none;
+      text-align: center;
+
+      & li {
+        padding: 2px 0;
+      }
+    }
+  }
+
+  & .footer-copyright {
+    text-align: center;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: $breakpoint-phone) {
+  .hidden-phone {
+    display: none;
+  }
+}

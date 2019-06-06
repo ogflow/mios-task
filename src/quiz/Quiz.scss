@@ -1,0 +1,51 @@
+@import '../styles/variables.scss';
+
+.quiz-wrap {
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: $bg-gray-1;
+  @media (max-width: $breakpoint-phone) {
+    min-height: 560px;
+  }
+
+  & .quiz-login-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+    
+    & .form-input {
+      margin-bottom: 70px;
+      width: 400px;
+      height: 44px;
+      background: transparent;
+      border: 0;
+      border-bottom: 1px solid $gray;
+      @media (max-width: $breakpoint-phone) {
+        width: 100%;
+        margin-bottom: 60px;
+      }
+    }
+  }
+
+  & .quiz-wave-hand {
+    width: 80px;
+    height: 80px;
+    animation: wave 0.6s infinite cubic-bezier(0.05, 0.2, 0.165, 1);
+  }
+
+}
+
+@keyframes wave {
+  0%, 100% {
+    transform: rotate(15deg)
+  }
+  30% {
+    transform: rotate(-15deg)
+  }
+}

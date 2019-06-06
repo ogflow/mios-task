@@ -1,0 +1,95 @@
+@import '../../styles/variables.scss';
+
+.subscription-wrap {
+  width: 100%;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  background: $bg-gray-2;
+
+  & .subscription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & .subscribe-form {
+      display: flex;
+      flex-wrap: wrap;
+      width: 540px;
+      @media (max-width: $breakpoint-phone) {
+        justify-content: center;
+        width: 250px;
+      }
+
+      & .form-input {
+        margin-right: 20px;
+        width: 250px;
+        height: 44px;
+        background: transparent;
+        border: 0;
+        border-bottom: 1px solid $gray;
+      }
+
+      & .subscription-checkbox {
+        margin: 20px auto 0 auto;
+        order: 3;
+        @media (max-width: $breakpoint-phone) {
+          order: 2;
+          margin: 20px auto;
+        }
+      }
+
+      & .subscription-input {
+        order: 1;
+      }
+
+      & .subscription-button {
+        order: 2;
+        @media (max-width: $breakpoint-phone) {
+          order: 3;
+        }
+      }
+
+      & .form-check-wrap {
+        display: flex;
+        height: 20px;
+        position: relative;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+
+        & .form-check-mark {
+          width: 16px;
+          height: 16px;
+          flex-shrink: 0;
+          border: 1px solid $gray;
+          margin-right: 12px;
+        }
+
+        & > input[type="checkbox"] {
+          position: absolute;
+          width: 100%;
+          height: 16px;
+          opacity: 0;
+          cursor: pointer;
+
+          &:checked ~ .form-check-mark {
+            background-color: $pink;
+            border-color: $pink;
+          }
+        }
+      }
+
+      & .subscribe-form-check {
+        display: flex;
+        align-self: flex-end;
+      }
+
+    }
+
+  }
+
+}

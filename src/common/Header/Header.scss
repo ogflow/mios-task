@@ -1,0 +1,127 @@
+@import '../../styles/variables.scss';
+
+.header-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background: $white;
+
+  & .header-body {
+    width: $max-width;
+    height: 135px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 20px 8px 20px;
+    @media (max-width: $breakpoint-phone) {
+      height: 50px;
+      width: 100%;
+      padding: 8px;
+    }
+
+    & .header-top-bar {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      @media (max-width: $breakpoint-phone) {
+        display: none;
+      }
+
+      & .header-lang-wrap {
+        display: flex;
+        align-items: center;
+
+        & .header-language-img {
+          margin-right: 7px;
+        }
+      }
+    }
+
+    & .header-menu-bar {
+      height: 40px;
+      display: flex;
+      align-items: center;
+      @media (max-width: $breakpoint-phone) {
+        justify-content: space-between
+      }
+      
+      & .header-logo-wrap {
+        position: absolute;
+        top: 51px;
+        left: calc(50% - 110px);
+        @media (max-width: $breakpoint-phone) {
+          width: 130px;
+          height: 20px;
+          top: 16px;
+          left: calc(50% - 65px);
+        }
+  
+        & > img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      & .header-icon-button {
+        padding: 8px;
+        margin: -8px;
+        cursor: pointer;
+        @media (max-width: $breakpoint-phone) {
+          margin: 0px;
+        }
+
+        &:hover {
+          opacity: 0.5;
+          transition: 0.12s ease-in-out;
+        }
+
+      }
+
+      & .header-text-links-wrap {
+        display: flex;
+        margin: 0;
+        padding: 0 8px;
+        @media (max-width: $breakpoint-tablet) {
+          display: none;
+        }
+
+        & .header-text-link {
+          list-style: none;
+          padding: 3px 7px;
+        }
+      }
+
+      & .header-search-wrap {
+        margin-left: auto;
+        margin-right: 24px;
+        display: flex;
+        @media (max-width: $breakpoint-phone) {
+          margin: 0 auto 0 0;
+        }
+
+        & .header-search-input {
+          width: 160px;
+          height: 23px;
+          padding: 4px 0;
+          border: 0;
+          border-bottom: 1px solid $black;
+          @media (max-width: $breakpoint-tablet) {
+            display: none;
+          }
+        }
+
+      }
+
+    }
+
+  }
+
+  & a:hover {
+    opacity: 0.5;
+    transition: 0.12s ease-in-out;
+  }
+
+}
